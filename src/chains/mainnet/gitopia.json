@@ -1,0 +1,19 @@
+{
+    "chain_name": "Gitopia",
+    "coingecko": "",
+    "api": ["https://gitopia-testnet.nodejumper.io:1317"], 
+    "rpc": ["https://gitopia-testnet.nodejumper.io:443"],
+    "snapshot_provider": "6146658ffe2d148524a9fdcc3d701440053442bf@gitopia-testnet.nodejumper.io:30656",
+    "sdk_version": "0.46.4",
+    "coin_type": "505",
+    "min_tx_fee": "800",
+    "addr_prefix": "gitopia",
+    "logo": "https://nodejumper.io/assets/img/chain/gitopia.webp",
+    "assets": [{
+        "base": "utlore",
+        "symbol": "TLORE",
+        "exponent": "6", 
+        "coingecko_id": "",
+        "logo": "https://nodejumper.io/assets/img/chain/gitopia.webp"
+    }]
+}

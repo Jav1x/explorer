@@ -1,7 +1,11 @@
 {
     "chain_name": "cosmos",
-    "api": ["https://vega.api.ping.pub", "https://rest.seed-01.theta-testnet.polypore.xyz", "https://rest.seed-02.theta-testnet.polypore.xyz"],
-    "rpc": ["https://rpc.seed-01.theta-testnet.polypore.xyz", "https://rpc.seed-02.theta-testnet.polypore.xyz"],
+    "api": [
+        "https://api-cosmoshub-ia.cosmosia.notional.ventures",
+        "https://lcd-cosmoshub.blockapsis.com:443",
+        "https://cosmos.api.ping.pub"
+    ],
+    "rpc": ["https://rpc.cosmos.network:443", "https://cosmos-rpc.icycro.org", "https://rpc.cosmos.dragonstake.io"],
     "sdk_version": "0.45.1",
     "coin_type": "118",
     "min_tx_fee": "800",

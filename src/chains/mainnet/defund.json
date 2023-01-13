@@ -1,0 +1,18 @@
+{
+    "chain_name": "defund",
+    "api": ["https://api-1.defund.nodes.guru"],
+    "rpc": ["https://rpc-1.defund.nodes.guru"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.10",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "defund",
+    "logo": "https://nodejumper.io/assets/img/chain/defund.webp",
+    "assets": [{
+        "base": "ufetf",
+        "symbol": "FETF",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "https://nodejumper.io/assets/img/chain/defund.webp"
+    }]
+}

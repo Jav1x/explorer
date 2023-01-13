@@ -1,0 +1,18 @@
+{
+    "chain_name": "namada",
+    "api": ["https://api.namada.nodes.guru"],
+    "rpc": ["https://rpc-1.namada.nodes.guru"],
+    "snapshot_provider": "",
+    "sdk_version": "0.34.8",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "atest",
+    "logo": "https://namada.explorers.guru/chains/namada.png",
+    "assets": [{
+        "base": "ufetf",
+        "symbol": "FETF",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "https://namada.explorers.guru/chains/namada.png"
+    }]
+}

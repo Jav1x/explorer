@@ -1,0 +1,19 @@
+{
+    "chain_name": "HAQQ",
+    "coingecko": "",
+    "api": ["https://api-1.haqq.nodes.guru:443"], 
+    "rpc": ["https://rpc-1.haqq.nodes.guru:443"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.9",
+    "coin_type": "505",
+    "min_tx_fee": "800",
+    "addr_prefix": "haqq",
+    "logo": "https://haqq.explorers.guru/chains/haqq.svg",
+    "assets": [{
+        "base": "aISLM",
+        "symbol": "ISLM",
+        "exponent": "18", 
+        "coingecko_id": "",
+        "logo": "https://haqq.explorers.guru/chains/haqq.svg"
+    }]
+}

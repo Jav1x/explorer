@@ -224,7 +224,6 @@
           :operator-address="validator.operator_address"
           :consensus-pubkey="validator.consensus_pubkey"
           :account-address="accountAddress"
-          :valcons-address="valconsAddress"
         />
       </b-col>
     </b-row>
@@ -274,7 +273,7 @@ import {
 } from 'bootstrap-vue'
 
 import {
-  percent, formatToken, StakingParameters, Validator, operatorAddressToAccount, consensusPubkeyToHexAddress, toDay, abbrMessage, abbrAddress, valoperToPrefix, pubKeyToValcons,
+  percent, formatToken, StakingParameters, Validator, operatorAddressToAccount, consensusPubkeyToHexAddress, toDay, abbrMessage, abbrAddress,
 } from '@/libs/utils'
 import { keybase } from '@/libs/fetch'
 import OperationModal from '@/views/components/OperationModal/index.vue'
@@ -315,7 +314,6 @@ export default {
       latestHeight: 0,
       accountAddress: '-',
       hexAddress: '-',
-      valconsAddress: '-',
       stakingPool: {},
       mintInflation: 0,
       stakingParameter: new StakingParameters(),
@@ -386,10 +384,8 @@ export default {
       return percent(value)
     },
     processAddress(operAddress, consensusPubkey) {
-      const prefix = valoperToPrefix(operAddress)
       this.accountAddress = operatorAddressToAccount(operAddress)
       this.hexAddress = consensusPubkeyToHexAddress(consensusPubkey)
-      this.valconsAddress = pubKeyToValcons(consensusPubkey, prefix)
       this.$http.getStakingDelegatorDelegation(this.accountAddress, operAddress).then(d => {
         this.selfDelegation = d
       })

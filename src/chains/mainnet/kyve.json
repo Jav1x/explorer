@@ -1,0 +1,19 @@
+{
+    "chain_name": "kyve",
+    "coingecko": "",
+    "api": ["https://api-1.kyve.nodes.guru:443"], 
+    "rpc": ["https://rpc-1.kyve.nodes.guru:443"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.6",
+    "coin_type": "505",
+    "min_tx_fee": "800",
+    "addr_prefix": "kyve",
+    "logo": "https://kyve.explorers.guru/chains/kyve.png",
+    "assets": [{
+        "base": "tkyve",
+        "symbol": "KYVE",
+        "exponent": "6", 
+        "coingecko_id": "",
+        "logo": "https://kyve.explorers.guru/chains/kyve.png"
+    }]
+}

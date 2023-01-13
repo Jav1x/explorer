@@ -1,0 +1,19 @@
+{
+    "chain_name": "Lava",
+    "coingecko": "",
+    "api": ["https://lava-testnet.nodejumper.io:1317"], 
+    "rpc": ["https://lava-testnet.nodejumper.io:443"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.11",
+    "coin_type": "505",
+    "min_tx_fee": "800",
+    "addr_prefix": "lava@",
+    "logo": "https://nodejumper.io/assets/img/chain/lava.webp",
+    "assets": [{
+        "base": "ulava",
+        "symbol": "LAVA",
+        "exponent": "6", 
+        "coingecko_id": "",
+        "logo": "https://nodejumper.io/assets/img/chain/lava.webp"
+    }]
+}
